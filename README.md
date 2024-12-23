@@ -1,1 +1,1 @@
-# Project still in development
+# an online plant shopping website
