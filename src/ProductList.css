@@ -111,6 +111,7 @@ body {
     background-color: #c0392b;
 }
 
+
 /* Pseudo-elements - Sale badge */
 .product-card::before {
     content: "SALE";
@@ -163,6 +164,7 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative;
 }
 .cart_quantity_count{
     margin-top: 16px;
@@ -249,4 +251,18 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+  }
+
+
+  .category-container{
+    text-align: center;
+
+  }
+
+  .cart-badge {
+    position: absolute;
+    top: 20%; 
+    left: 40%; 
+    font-size: 2rem;
+  
   }
